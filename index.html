@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diversitatea</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="responsive.js">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<header>
+    <p>Viața acvatică 
+    în Marea Neagră</p>
+</header>
+<nav id="navbar">
+    <div class="logo">
+        <a href="#"><img src="img/logo.png" alt=""></a>
+    </div>
+    <ul class="nav-links">
+        <li><a href="#">Acasă</a></li>
+        <li><a href="index_2.html">Specii</a></li>
+        <li><a href="index_3.html">Probleme</a></li>
+        <li><a href="index_4.html">Curiozități</a></li>
+    </ul>
+    <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+    </div>
+</nav>
+<script>
+    const burger = document.querySelector('.burger');
+    const navLinks = document.querySelector('.nav-links');
+
+    burger.addEventListener('click', () => {
+        navLinks.classList.toggle('nav-active');
+        burger.classList.toggle('toggle');
+    });
+</script>
+<main>
+    <div class="principal">
+        <h2>Informații generale</h2>
+        <div class="info">
+            Marea Neagră este o mare intercontinentală situată între Europa și Asia, având o biodiversitate unică și un ecosistem fascinant. Cu o suprafață de aproximativ 436.000 km² și o adâncime maximă de 2.212 metri, această mare este conectată la Oceanul Planetar prin strâmtorile Bosfor și Dardanele.
+            <br>
+            <br>
+            Apele sale găzduiesc numeroase specii de pești, mamifere marine și organisme acvatice, precum delfini, sturioni și alge diverse. Totuși, Marea Neagră se confruntă cu provocări ecologice majore, cum ar fi poluarea și pescuitul excesiv, ceea ce face necesare măsuri de protecție și conservare.
+            <br>
+            <br>
+            Explorează acest site pentru a descoperi mai multe despre fascinanta viață marină a Mării Negre, speciile unice pe care le adăpostește și eforturile depuse pentru protejarea acestui ecosistem special!
+        </div>
+    </div>
+    <div class="photo">
+        <div class="gallery">
+            <img src="img/i1.jpg" alt="">
+            <img src="img/i2.jpg" alt="">
+            <img src="img/i3.jpg" alt="">
+            <img src="img/i4.jpg" alt="">
+            <img src="img/i5.jpg" alt="">
+            <img src="img/i6.jpg" alt="">
+            <img src="img/i7.jpg" alt="">
+            <img src="img/i8.jpeg" alt="">
+            <img src="img/i9.jpg" alt="">
+            <img src="img/i10.jpg" alt="">
+            <img src="img/i11.jpeg" alt="">
+            <img src="img/i12.jpg" alt="">
+            <img src="img/i13.jpg" alt="">
+            
+            
+         </div>
+
+    </div>
+</main>
+<footer>
+   
+    <div class="link"><a href="index.html">Pagina anterioarā</a></div>
+    <div class="link"><a href="index.html">Înapoi</a></div>
+    <div class="link"><a href="index_2.html">Pagina urmātoare</a></div>
+</footer>
+</body>
+</html>

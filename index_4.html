@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diversitatea</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="responsive.js">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <p>Viața acvatică 
+        în Marea Neagră</p>
+    </header>
+<nav id="navbar">
+    <div class="logo">
+        <a href="#"><img src="img/logo.png" alt=""></a>
+    </div>
+    <ul class="nav-links">
+        <li><a href="index.html">Acasă</a></li>
+        <li><a href="index_2.html">Specii</a></li>
+        <li><a href="index_3.html">Probleme</a></li>
+        <li><a href="#">Curiozități</a></li>
+    </ul>
+    <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+    </div>
+</nav>
+<script>
+    const burger = document.querySelector('.burger');
+    const navLinks = document.querySelector('.nav-links');
+
+    burger.addEventListener('click', () => {
+        navLinks.classList.toggle('nav-active');
+        burger.classList.toggle('toggle');
+    });
+</script>
+<main>
+    
+    <div class="principal">
+        <h2 style="text-decoration: none;">•Curiozitāți</h2>
+        <div class="info">
+        
+            <ol>
+                <li>Marea Neagră are un strat anoxic la adâncimi mai mari de 150-200 de metri, ceea ce înseamnă că aproape 90% din volumul său nu conține oxigen și este saturat cu hidrogen sulfurat, un gaz toxic care împiedică dezvoltarea vieții marine, dar contribuie la conservarea epavelor antice.
+                </li>
+                <br>
+                <li>Sturionii din Marea Neagră sunt printre cele mai vechi specii de pești din lume, existând de peste 200 de milioane de ani, însă din cauza pescuitului excesiv pentru caviar, populația lor a scăzut dramatic, iar multe specii sunt acum protejate prin lege.
+                    
+                </li>
+                
+                <br>
+                <li>Acum aproximativ 7.500 de ani, Marea Neagră era un lac de apă dulce, iar unii cercetători cred că o inundație masivă provocată de pătrunderea apelor din Marea Mediterană prin Strâmtoarea Bosfor ar putea fi la originea legendei despre Atlantida.
+                   
+                </li>
+            </ol>
+        </div>
+    </div>
+    <div class="principal">
+        <div class="info">Mai jos ți-am pregātit un chestionar cu câteva întrebāri simple pentru a vedea dacā informațiile oferite pe parcursul site-ului au fost clare. <br><br>
+            Mult succes!</div>
+    </div>
+   
+    <div id="quiz">
+        <h1>Chestionar-Marea Neagrā</h1>
+        <div id="question"></div>
+        <div id="options"></div>
+        <button id="submit">Confirmā</button>
+      </div>
+      <script src="quiz.js"></script>
+    <div class="principal">
+        <h1>Acesta a fost testul despre Marea Neagră! Câte răspunsuri corecte ai obținut? 🌊</h1>
+    </div>
+    <div class="photo">
+        <div class="gallery">
+            <img src="img/i8.jpeg" alt="">
+            <img src="img/i14.webp" alt="">
+            <img src="img/i3.jpg" alt="">
+            <img src="img/i7.jpg" alt="">
+            <img src="img/i5.jpg" alt="">
+            <img src="img/i6.jpg" alt="">
+            <img src="img/i10.jpg" alt="">
+            <img src="img/i8.jpeg" alt="">
+            
+            
+            
+         </div>
+
+    </div>
+</main>
+<footer>
+   
+    <div class="link"><a href="index_3.html">Pagina anterioarā</a></div>
+    <div class="link"><a href="#">Înapoi</a></div>
+    <div class="link"><a href="index.html">Prima paginā</a></div>
+</footer>
+</body>
+</html>
